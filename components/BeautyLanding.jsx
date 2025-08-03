@@ -723,6 +723,7 @@ const BeautyLanding = () => {
                   </div>
                   
                   <button
+                     id="ana-whatsapp-button"
                      onClick={() => window.open('https://wa.me/905438999586?text=Merhaba, ucretsiz danismanlik almak istiyorum.', '_blank')}
                      className="ana_wpbutton w-full px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3"
                   >
@@ -775,6 +776,7 @@ const BeautyLanding = () => {
              {/* Sabit WhatsApp Butonu */}
        <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
          <button
+           id="sabit-whatsapp-button"
            onClick={() => window.open('https://wa.me/905438999586?text=Merhaba, ucretsiz danismanlik almak istiyorum.', '_blank')}
            className="sabit_wpbutton bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3 font-semibold text-lg"
          >
